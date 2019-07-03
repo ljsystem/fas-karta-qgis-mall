@@ -1,1384 +1,2915 @@
 <!DOCTYPE qgis_style>
 <qgis_style version="1">
   <symbols>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Allmän väg">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="0,0,0,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Allmän väg" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Asfalt">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="104,104,104,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Asfalt" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="104,104,104,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Belysningsstolpe">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="255,235,175,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Barrträd" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="46,140,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Berg i dagen">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="178,178,178,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Bas linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="28,28,7,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Betesmark">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="199,215,158,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Bas punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="0,0,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Betong">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="225,225,225,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Belysningsstolpe" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,235,175,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Blomlåda">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="163,60,186,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Berg i dagen" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="178,178,178,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Brunn">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="156,83,0,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Betesmark" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="199,215,158,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Buskage">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="38,115,0,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Betong" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="225,225,225,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Buske">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="38,115,0,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Blomlåda" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="163,60,186,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Byggnad">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="255,167,127,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Blå" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="0,0,179,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.796078" clip_to_extent="1" type="fill" name="Bänk">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="205,170,102,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Blå linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0,179,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.490196" clip_to_extent="1" type="fill" name="Ceremoniplats">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="190,255,232,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Blå punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="0,0,179,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Damm">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="122,182,245,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Brun" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="128,64,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Eluttag">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="205,205,102,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Brun linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="128,64,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Flaggstång">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="0,38,115,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Brun punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="128,64,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Fontän">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="115,178,255,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Brunn" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="156,83,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Färist">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="110,43,32,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Buskage" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="38,115,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.796078" clip_to_extent="1" type="fill" name="Gamla gravar">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="255,255,255,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Buske" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="38,115,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Grav">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="255,255,219,0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.2"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Byggnad" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,167,127,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Gravanordning">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="130,130,130,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Bänk" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.796078">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="205,170,102,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0" clip_to_extent="1" type="fill" name="Gravnummer">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="255,255,219,0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,0"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Ceremoniplats" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.490196">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="190,255,232,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.796078" clip_to_extent="1" type="fill" name="Gravrabatt">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="102,205,171,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Damm" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="122,182,245,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Gravram">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="168,112,0,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Elledning" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="205,205,102,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Gravstaket">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="68,101,137,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Eluttag" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="205,205,102,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Gravvård">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="115,0,0,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Flaggstång" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="0,38,115,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Grind">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="0,168,132,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Fontän" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="115,178,255,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Grindstolpe">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="215,176,158,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Färist" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="110,43,32,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Grindstolpe punkt">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="245,162,122,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Gamla gravar" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.796078">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,255,255,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Grus">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="204,204,204,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Grav" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,255,219,0" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.2" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Grusgrav">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="204,204,204,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Gravanordning" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="130,130,130,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Gräs">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="112,168,0,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Gravnummer" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,255,219,0" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,0" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Gräsgrav">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="112,168,0,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Gravrabatt" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.796078">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="102,205,171,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.796078" clip_to_extent="1" type="fill" name="Häck">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="114,137,68,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Gravram" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="168,112,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Häckbädd">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="168,168,0,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Gravstaket" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="68,101,137,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Informationsskylt">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="211,255,190,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Gravvård" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="115,0,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Kantsten">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="68,101,137,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Grind" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,168,132,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Kvartersindelning">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="204,184,131,0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,25,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.6"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Grindstolpe" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="215,176,158,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="fill" name="Kvartersnamn">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="204,184,131,0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="126,43,43,0"/>
-        <prop k="outline_style" v="dot"/>
-        <prop k="outline_width" v="0.4"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Grindstolpe punkt" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="245,162,122,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Lapidarium">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="233,255,190,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Grus" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="204,204,204,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Mausoleum">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="205,137,102,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Grusgrav" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="204,204,204,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Minnessten">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="194,158,215,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Gräs" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="112,168,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Mur">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="245,162,122,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Gräsgrav" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="112,168,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Naturmark">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="186,221,105,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="128,152,72,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Grön" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="0,179,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
-      <layer pass="0" class="PointPatternFill" locked="0">
-        <prop k="displacement_x" v="2"/>
-        <prop k="displacement_x_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="displacement_x_unit" v="MM"/>
-        <prop k="displacement_y" v="0"/>
-        <prop k="displacement_y_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="displacement_y_unit" v="MM"/>
-        <prop k="distance_x" v="4"/>
-        <prop k="distance_x_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="distance_x_unit" v="MM"/>
-        <prop k="distance_y" v="4"/>
-        <prop k="distance_y_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="distance_y_unit" v="MM"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <symbol alpha="1" clip_to_extent="1" type="marker" name="@Naturmark@1">
-          <layer pass="0" class="SimpleMarker" locked="0">
-            <prop k="angle" v="0"/>
-            <prop k="color" v="255,0,0,255"/>
-            <prop k="horizontal_anchor_point" v="1"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="name" v="line"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="105,128,52,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0"/>
-            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="scale_method" v="area"/>
-            <prop k="size" v="1"/>
-            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="size_unit" v="MM"/>
-            <prop k="vertical_anchor_point" v="1"/>
+    </symbol>
+    <symbol name="Grön linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,179,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Grön punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="0,179,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Gul" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="179,179,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Gul linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="179,179,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Gul punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="179,179,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Häck" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.796078">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="114,137,68,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Häck linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="114,137,68,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Häckbädd" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="168,168,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Informationsskylt" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="211,255,190,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Kantsten" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="68,101,137,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Kvartersindelning" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="204,184,131,0" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,25,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Kvartersnamn" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="204,184,131,0" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="126,43,43,0" k="outline_color"/>
+        <prop v="dot" k="outline_style"/>
+        <prop v="0.4" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Lapidarium" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="233,255,190,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Lila" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="179,0,179,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Lila linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="179,0,179,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Lila punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="179,0,179,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Mausoleum" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="205,137,102,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Minnessten" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="194,158,215,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Mur" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="245,162,122,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Mur linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="245,162,122,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Naturmark" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="186,221,105,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="128,152,72,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer class="PointPatternFill" locked="0" enabled="1" pass="0">
+        <prop v="2" k="displacement_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_x_map_unit_scale"/>
+        <prop v="MM" k="displacement_x_unit"/>
+        <prop v="0" k="displacement_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_y_map_unit_scale"/>
+        <prop v="MM" k="displacement_y_unit"/>
+        <prop v="4" k="distance_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_x_map_unit_scale"/>
+        <prop v="MM" k="distance_x_unit"/>
+        <prop v="4" k="distance_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_y_map_unit_scale"/>
+        <prop v="MM" k="distance_y_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Naturmark@1" type="marker" clip_to_extent="1" force_rhr="0" alpha="1">
+          <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+            <prop v="0" k="angle"/>
+            <prop v="255,0,0,255" k="color"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="line" k="name"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="105,128,52,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="area" k="scale_method"/>
+            <prop v="1" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
           </layer>
         </symbol>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Papperskorg">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="137,68,101,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Orange" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="179,60,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Plank">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="112,68,137,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Orange linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="179,60,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Planteringskärl">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="230,152,0,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Orange punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="179,60,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Plantskola">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="92,137,68,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Papperskorg" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="137,68,101,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Rabatt">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="180,215,158,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Plank" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="112,68,137,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.490196" clip_to_extent="1" type="fill" name="Ramp">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="215,215,158,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Planteringskärl" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="230,152,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Räcke">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="0,117,171,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Plantskola" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="92,137,68,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Serviceplats">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="158,187,215,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Rabatt" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="180,215,158,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Skärmtak">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="255,167,127,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Ramp" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.490196">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="215,215,158,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Smyckningsplats">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="245,202,122,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Rosa" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,153,153,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Smyckningsplats punkt">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="245,202,122,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Rosa linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="255,153,153,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Staket">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="66,0,133,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Rosa punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,153,153,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Staketstolpe">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="171,0,51,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Räcke" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,117,171,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Staty">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="215,176,158,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Röd" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="179,0,0,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Sten">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="156,156,156,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Röd linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="179,0,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Sten punkt">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="78,78,78,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Röd punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="179,0,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Stiglucka">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="245,122,122,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Serviceplats" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="158,187,215,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Strålkastare">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="255,255,190,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Serviceplats linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="158,187,215,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.796078" clip_to_extent="1" type="fill" name="Stödmur">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="190,232,255,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Serviceplats punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="158,187,215,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Stödmur linje">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="0,168,132,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Skärmtak" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,167,127,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.494118" clip_to_extent="1" type="fill" name="Trappa">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="255,235,190,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Smyckningsplats" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="245,202,122,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Trappsteg">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="130,130,130,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Smyckningsplats punkt" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="245,202,122,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Träd">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="56,168,0,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Staket" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="66,0,133,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Upplag">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="205,170,102,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Staketstolpe" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="171,0,51,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Vashållare">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="230,152,0,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Staty" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="215,176,158,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.796078" clip_to_extent="1" type="fill" name="Vattenanordning">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="115,178,255,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Sten" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="156,156,156,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Vattenkar">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="170,102,205,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Sten punkt" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="78,78,78,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="marker" name="Vattenpost">
-      <layer pass="0" class="SimpleMarker" locked="0">
-        <prop k="angle" v="0"/>
-        <prop k="color" v="102,153,205,255"/>
-        <prop k="horizontal_anchor_point" v="1"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="name" v="circle"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0"/>
-        <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="scale_method" v="diameter"/>
-        <prop k="size" v="2"/>
-        <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="size_unit" v="MM"/>
-        <prop k="vertical_anchor_point" v="1"/>
+    <symbol name="Stiglucka" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="245,122,122,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.792157" clip_to_extent="1" type="fill" name="Vattenränna">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="122,142,245,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="solid"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Strålkastare" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,255,190,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Växtportal">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="56,168,0,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Stödmur" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.796078">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="190,232,255,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="1" clip_to_extent="1" type="line" name="Yttergravhäck">
-      <layer pass="0" class="SimpleLine" locked="0">
-        <prop k="capstyle" v="square"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="line_color" v="76,115,0,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.26"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <symbol name="Stödmur linje" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,168,132,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
-    <symbol alpha="0.498039" clip_to_extent="1" type="fill" name="Ängsmark">
-      <layer pass="0" class="SimpleFill" locked="0">
-        <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="color" v="245,202,122,255"/>
-        <prop k="joinstyle" v="bevel"/>
-        <prop k="offset" v="0,0"/>
-        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="outline_color" v="0,0,0,255"/>
-        <prop k="outline_style" v="no"/>
-        <prop k="outline_width" v="0.26"/>
-        <prop k="outline_width_unit" v="MM"/>
-        <prop k="style" v="solid"/>
+    <symbol name="Trappa" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.494118">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="255,235,190,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Trappsteg" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="130,130,130,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Trä" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="101,67,33,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Träd" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="56,168,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Turkos" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="0,179,179,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Turkos linje" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,179,179,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Turkos punkt" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="0,179,179,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Upplag" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="205,170,102,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Vashållare" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="230,152,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Vattenanordning" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.796078">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="115,178,255,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Vattenkar" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="170,102,205,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Vattenledning" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="115,178,255,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Vattenpost" favorite="1" type="marker" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+        <prop v="0" k="angle"/>
+        <prop v="102,153,205,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Vattenränna" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.792157">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="122,142,245,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Växtportal" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="56,168,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Yttergravhäck" favorite="1" type="line" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="1">
+      <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="76,115,0,255" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="0.26" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol name="Ängsmark" favorite="1" type="fill" tags="fas-karta" clip_to_extent="1" force_rhr="0" alpha="0.498039">
+      <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="245,202,122,255" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="no" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
       </layer>
     </symbol>
   </symbols>
